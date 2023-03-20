@@ -16,16 +16,16 @@
             <div class="nav--buttons--area">
                 <ul class="nav--buttons">
                     <li class="nav--button--area">
-                        <button class="nav--button">Hakkımda</button>
+                        <a href="#"><button class="nav--button">Hakkımda</button></a>
                     </li>
                     <li class="nav--button--area">
-                        <button class="nav--button">Yeteneklerim</button>
+                        <a href="#abilities"><button class="nav--button">Yeteneklerim</button></a>
                     </li>
                     <li class="nav--button--area">
-                        <button class="nav--button">Projelerim</button>
+                        <a href="#my-projects"><button class="nav--button">Projelerim</button></a>
                     </li>
                     <li class="nav--button--area">
-                        <button class="nav--button">İletişim</button>
+                        <a href="#contact"><button class="nav--button">İletişim</button></a>
                     </li>
                 </ul>
             </div>
@@ -40,18 +40,18 @@
                 </div>
             </div>
             <div class="my--social--medias--area">
-                <button class="my--social--media--button"><ion-icon class="my--social--media--button--icon"
+                <button id="btn-instagram" class="my--social--media--button"><ion-icon class="my--social--media--button--icon"
                         name="logo-instagram"></ion-icon>Instagram</button>
-                <button class="my--social--media--button"><ion-icon class="my--social--media--button--icon"
+                <button id="btn-youtube" class="my--social--media--button"><ion-icon class="my--social--media--button--icon"
                         name="logo-youtube"></ion-icon>Youtube</button>
-                <button class="my--social--media--button"><ion-icon class="my--social--media--button--icon"
+                <button id="btn-linkedIn" class="my--social--media--button"><ion-icon class="my--social--media--button--icon"
                         name="logo-linkedin"></ion-icon>LinkedIn</button>
-                <button class="my--social--media--button"><ion-icon class="my--social--media--button--icon"
+                <button id="btn-twitter" class="my--social--media--button"><ion-icon class="my--social--media--button--icon"
                         name="logo-twitter"></ion-icon>Twitter</button>
-                        <button class="my--social--media--button"><ion-icon class="my--social--media--button--icon"
-                            name="logo-github"></ion-icon>Github</button>
+                <button id="btn-github" class="my--social--media--button"><ion-icon class="my--social--media--button--icon"
+                        name="logo-github"></ion-icon>Github</button>
             </div>
-            <hr class="main--hr">
+            <hr class="main--hr" id="abilities">
             <div class="my--abilities--area">
                 <div class="abilities--title--area">
                     <h1 class="abilities--title--text">Yeteneklerim</h1>
@@ -73,7 +73,7 @@
                         <ion-icon class="my--ability--icon" name="logo-javascript"></ion-icon>
                         JavaScript
                     </div>
-                    
+
                     <div class="my--ability">
                         <ion-icon class="my--ability--icon" name="logo-nodejs"></ion-icon>
                         Node JS
@@ -84,7 +84,7 @@
                     </div>
                 </div>
             </div>
-            <hr class="main--hr">
+            <hr class="main--hr" id="my-projects">
             <div class="my--projects--area">
                 <div class="my--projects--title--area">
                     <h1 class="my--project--title--text">Projelerim</h1>
@@ -93,7 +93,38 @@
                     <div class="my--project"></div>
                 </div>
             </div>
-
+            <hr class="main--hr" id="contact">
+            <div class="contact--area">
+                <div class="contact--title--area">
+                    <h1 class="contact--title--text">İletişim</h1>
+                </div>
+                <div class="contact--form--area">
+                    <form class="contact--form" action="" method="post">
+                        <div class="contact--form--input--component">
+                            <h3 class="contact--input--title">Ad Soyad</h3>
+                            <input placeholder="Adınızı ve Soyadınızı giriniz..." type="text" class="contact--input" id="inp-name-surname">
+                        </div>
+                        <div class="contact--form--input--component">
+                            <h3 class="contact--input--title">E-Posta</h3>
+                            <input placeholder="E-posta adresinizi giriniz..." type="email" class="contact--input" id="inp-email">
+                        </div>
+                        <div class="contact--form--input--component">
+                            <h3 class="contact--input--title">Mesaj</h3>
+                            <textarea placeholder="Mesajınızı giriniz..." class="contact--input" id="inp-message" cols="30" rows="10"></textarea>
+                        </div>
+                        <div class="contact--form--button--component">
+                            <div></div>
+                            <input type="submit" class="contact--form--submit--button">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <hr class="main--hr">
+            <div class="footer--area">
+                <div class="author--area">
+                    <h3 class="author--text">Tasarlayan ve Geliştiren : Gökay Baz</h3>
+                </div>
+            </div>
         </div>
     </div>
     <script src="./script.js"></script>

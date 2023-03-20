@@ -213,3 +213,94 @@ body {
     font-family: 'Alata', sans-serif;
 
 }
+
+/* -----My Projects Area Style End----- */
+
+/* Contact Area Style  */
+
+.contact--area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.contact--title--text {
+    font-family: 'Alata', sans-serif;
+}
+
+.contact--form--area {
+    margin-top: 8%;
+    width: 50%;
+}
+
+.contact--form--input--component {
+    margin-bottom: 8%;
+}
+
+.contact--input--title {
+    margin-bottom: 4%;
+}
+
+.contact--input {
+    border-radius: 10px;
+    border: none;
+    padding: 0 15px;
+    font-size: 17px;
+    width: 70%;
+    height: 40px;
+}
+
+#inp-message {
+    padding: 15px;
+    width: 100%;
+    height: 180px;
+}
+
+.contact--form--button--component {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact--form--submit--button {
+    padding: 10px;
+}
+
+.contact--form--submit--button {
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 2px solid yellow;
+    color: white;
+    background-color: transparent;
+    width: 120px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.contact--form--submit--button:hover {
+    background-color: white;
+    color: rgb(33, 33, 99);
+    transition: 120ms;
+}
+
+/* -----Contact Area Style End-----  */
+
+/* Footer Area */
+
+.footer--area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.author--area {
+    color: white;
+}
+
+.author--text {
+    font-family: 'Alata', sans-serif;
+}
