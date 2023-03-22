@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gökay Baz - Portfolio</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style_for_mobile.css">
 </head>
 
 <body>
@@ -29,6 +30,9 @@
                     </li>
                 </ul>
             </div>
+            <div class="mobile--nav--button">
+                <ion-icon name="menu-outline"></ion-icon>
+            </div>
         </nav>
         <div class="main--body--area">
             <div class="my--info--area">
@@ -40,7 +44,8 @@
                 </div>
             </div>
             <div class="my--social--medias--area">
-                <button id="btn-instagram" class="my--social--media--button"><ion-icon class="my--social--media--button--icon"
+                <div class="social--media--buttons">
+                    <button id="btn-instagram" class="my--social--media--button"><ion-icon class="my--social--media--button--icon"
                         name="logo-instagram"></ion-icon>Instagram</button>
                 <button id="btn-youtube" class="my--social--media--button"><ion-icon class="my--social--media--button--icon"
                         name="logo-youtube"></ion-icon>Youtube</button>
@@ -50,11 +55,17 @@
                         name="logo-twitter"></ion-icon>Twitter</button>
                 <button id="btn-github" class="my--social--media--button"><ion-icon class="my--social--media--button--icon"
                         name="logo-github"></ion-icon>Github</button>
+                </div>
+                <div class="social--media--text--area">
+                    <p class="social--media--text">
+                        Sosyal Medya Hesaplarım !
+                    </p>
+                </div>
             </div>
             <hr class="main--hr" id="abilities">
             <div class="my--abilities--area">
                 <div class="abilities--title--area">
-                    <h1 class="abilities--title--text">Yeteneklerim</h1>
+                    <h1 class="abilities--title--text sub--title--text">Yeteneklerim</h1>
                 </div>
                 <div class="my--abilities">
                     <div class="my--ability">
@@ -67,7 +78,7 @@
                     </div>
                     <div class="my--ability">
                         <ion-icon class="my--ability--icon" name="logo-figma"></ion-icon>
-                        UI & UX Coding
+                        UI & UX
                     </div>
                     <div class="my--ability">
                         <ion-icon class="my--ability--icon" name="logo-javascript"></ion-icon>
@@ -87,7 +98,7 @@
             <hr class="main--hr" id="my-projects">
             <div class="my--projects--area">
                 <div class="my--projects--title--area">
-                    <h1 class="my--project--title--text">Projelerim</h1>
+                    <h1 class="my--project--title--text sub--title--text">Projelerim</h1>
                 </div>
                 <div class="my--projects">
                     <div class="my--project"></div>
@@ -96,7 +107,7 @@
             <hr class="main--hr" id="contact">
             <div class="contact--area">
                 <div class="contact--title--area">
-                    <h1 class="contact--title--text">İletişim</h1>
+                    <h1 class="contact--title--text sub--title--text">İletişim</h1>
                 </div>
                 <div class="contact--form--area">
                     <form class="contact--form" action="" method="post">

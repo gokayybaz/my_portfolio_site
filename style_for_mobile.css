@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@media only screen and (max-width: 600px) {
+    .main--container {
+        margin: 2% 5%;
+    }
+
+    .mobile--nav--button {
+        font-size: 35px;
+        display: flex;
+        color: white;
+    }
+    .nav--buttons--area {
+        display: none;
+    }
+
+    .main--body--area {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+    .my--info--area {
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .my--profile--picture--area {
+        margin: 0;
+        margin-bottom: 20px;
+        width: 200px;
+        border-radius: 100px;
+        height: 200px;
+    }
+
+    .my--info--text--area {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .my--info--text--title {
+        font-size: 28px;
+    }
+    .my--info--text {
+        font-size: 17px;
+    }
+
+    .my--social--medias--area {
+        display: flex;
+        border: 2px rgb(255, 255, 0,0.6) dashed;
+        align-items: center;
+        justify-content: space-between;
+        /* width: max-content; */
+    }
+
+    .social--media--buttons {
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+    }
+
+    .social--media--text {
+        display: flex;
+        color: white;
+        text-align: center;
+        font-size: 22px;
+        font-family: 'Acme', sans-serif;
+    }
+    .sub--title--text {
+        font-size: 25px;
+    }
+    .my--abilities {
+        grid-template-columns: auto auto;
+        grid-column-gap: 55px;
+    }
+    .my--ability--icon {
+        font-size: 40px;
+        margin-right: 10px;
+    }
+    .contact--form--area {
+        margin-top: 45px;
+        width: 90%;
+        align-items: start;
+    }
+
+    .contact--form--input--component > input::placeholder {
+        font-size: 15px;
+    }
+
+    .footer--area {
+        margin-bottom: 60px;
+    }
+
+    .author--text {
+        font-size: 15px;
+    }
+}

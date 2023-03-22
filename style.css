@@ -115,6 +115,12 @@ body {
     justify-content: center;
 }
 
+.social--media--buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .my--social--media--button {
     display: flex;
     align-items: center;
@@ -139,6 +145,10 @@ body {
 .my--social--media--button--icon {
     font-size: 30px;
     margin-right: 10px;
+}
+
+.social--media--text {
+    display: none;
 }
 
 /* -----My Social Media Area Style End----- */
@@ -303,4 +313,8 @@ body {
 
 .author--text {
     font-family: 'Alata', sans-serif;
+}
+
+.mobile--nav--button {
+    display: none;
 }
