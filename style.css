@@ -25,6 +25,10 @@ body {
 
 /* Nav Area Style */
 
+.mobile--nav {
+    display: none;
+}
+
 .main--nav--area {
     display: flex;
     align-items: center;

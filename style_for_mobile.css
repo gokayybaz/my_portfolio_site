@@ -1,7 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 @media only screen and (max-width: 600px) {
     .main--container {
+        position: relative;
         margin: 2% 5%;
+    }
+
+    .mobile--nav {
+        border: 5px solid purple;
+        border-radius: 10px;
+        box-shadow: -8px 8px 10px purple;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        display: none;
+        width: 100%;
+        height: max-content;
+        position: absolute;
+        background-color: rgb(33, 33, 99);
+    }
+
+    .nav--buttons{
+        padding-top: 20px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .nav--button--area{
+        width: 70%;
+        margin-bottom: 20px;
+    }
+
+    .nav--button {
+        width: 70%;
+    }
+    
+
+    .nav--button {
+        width: 100%;
+    }
+
+    .main--nav--area {
+        z-index: 0;
     }
 
     .mobile--nav--button {

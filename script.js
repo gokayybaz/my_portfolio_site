@@ -29,3 +29,25 @@ twitterButton.addEventListener("click",()=> {
 githubButton.addEventListener("click",()=> {
     open(githubAddress, "_blank")
 })
+
+let mobileNavShowButton = document.getElementById("btn-mobile-nav")
+let mobileNavArea = document.getElementById("mobile-nav")
+let mobileNavButtons = document.getElementsByClassName("nav--button")
+let mainBodyArea = document.getElementById("main-body")
+mainBodyArea.addEventListener("click",()=>{
+    mobileNavArea.style.display = "none"
+
+})
+
+
+mobileNavShowButton.addEventListener("click",()=> {
+    mobileNavArea.style.display = "flex"
+})
+
+for (let index = 0; index < mobileNavButtons.length; index++) {
+    let navButton = mobileNavButtons[index]
+    navButton.addEventListener("click",()=>{
+        mobileNavArea.style.display = "none"
+    })
+    
+}
