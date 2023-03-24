@@ -1,2 +1,2 @@
 # my_portfolio_site
-Gökay Baz - Responsive (Mobile & Desktop) Portfolio site using HTML & CSS & JS
+Gökay Baz - Responsive (Mobile & Desktop) Portfolio Site using HTML & CSS & JS
