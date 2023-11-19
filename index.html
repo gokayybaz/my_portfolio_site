@@ -221,6 +221,7 @@
       defer
     ></script>
     <script>
+      OneSignal.Notifications.requestPermission();
       window.OneSignalDeferred = window.OneSignalDeferred || [];
       OneSignalDeferred.push(function (OneSignal) {
         OneSignal.init({
